@@ -1,0 +1,71 @@
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Style the options container */
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style the option name */
+.option-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Style the option amount */
+.option-amount {
+  font-size: 16px;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Style the total budget container */
+.total-budget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style the total budget label and value */
+.total-budget label, .total-budget .value {
+  font-size: 16px;
+  margin: 10px;
+}
+
+/* Style the progress bar container */
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style the progress bar fill */
+.progress-bar .fill {
+  height: 100%;
+  width: 50%; /* Set the width to the percentage of the budget that has been spent */
+  background-color: #4caf50;
+  border-radius: 5px;
+}

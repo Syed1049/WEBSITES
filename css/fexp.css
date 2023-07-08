@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+}
+
+#formDiv {
+  padding: 20px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="expensename"],
+input[type="expenseamount"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#family {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cancelbtn {
+  background-color: gray;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}

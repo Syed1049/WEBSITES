@@ -1,0 +1,144 @@
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+        "options options"
+        "amounts amounts"
+        "sign-out sign-out";
+    align-items: center;
+    padding: 20px;
+}
+
+/* Dashboard options */
+.dashboard .options {
+    grid-area: options;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.dashboard .options .option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dashboard .options .option a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Amounts */
+.dashboard .amounts {
+    grid-area: amounts;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.dashboard .amounts .amount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+}
+.dashboard .amounts .amount h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+/* Sign out button */
+.dashboard .sign-out {
+    
+    grid-area: sign-out;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dashboard .sign-out:hover {
+    background-color: #e57373;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header img {
+  float: left;
+  height: 50px;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #eee;
+  color: #333;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  color: #333;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #444;
+}
